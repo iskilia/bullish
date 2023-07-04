@@ -12,16 +12,16 @@ feel more comfortable using something else, then please do so.
 Persistence should be achieved either through an In-memory DB or Java data structures – in either
 case being sure to demonstrate an understanding of safe concurrent usage.
 
-Electronic Store’s Requirements
-Admin User Operations
+### Electronic Store’s Requirements
+#### Admin User Operations
 • Create a new product
 • Remove a product
 • Add discount deals for products (Example: Buy 1 get 50% off the second)
-Customer Operations
+#### Customer Operations
 • Add and remove products to and from a basket
 • Calculate a receipt of items, including all purchases, deals applied and total price
 
-Your Submission
+#### Your Submission
 • Everything should be tested with automated tests. If any requirement is not satisfied, a test
 should fail
 • Include this document in your repo
@@ -30,7 +30,7 @@ should fail
 • Optimise for code clarity instead of performance
 • Push your code to a publicly available git repository and provide a link (github.com is our
 preferred.)
-Out of scope
+#### Out of scope
 • Logging
 • Continuous Integration
 • Deployment
