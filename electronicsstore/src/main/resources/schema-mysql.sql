@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS product (
+  productId UUID NOT NULL,
+  productName VARCHAR(100) NOT NULL
+);
