@@ -3,7 +3,9 @@ This is Isaac Kilis' admission for the Bullish technical assessment
 # Starting the application
 
 ```
-TK
+cd electronicsstore
+docker build --build-arg JAR_FILE=build/libs/electronicsstore\*.jar -t myorg/myapp
+docker run -p 8080:8080 myorg/myapp
 ```
 
 # Testing the application
@@ -24,7 +26,7 @@ case being sure to demonstrate an understanding of safe concurrent usage.
 ## Electronic Store’s Requirements
 ### Admin User Operations
 
-- Create a new product
+-  Create a new product
 -  Remove a product
 -  Add discount deals for products (Example: Buy 1 get 50% off the second)
 
@@ -49,3 +51,7 @@ should fail
 - Continuous Integration
 - Deployment
 - Metrics
+
+### Additional references used
+- https://spring.io/guides/topicals/spring-boot-docker/
+- 
