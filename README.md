@@ -24,28 +24,28 @@ case being sure to demonstrate an understanding of safe concurrent usage.
 ## Electronic Store’s Requirements
 ### Admin User Operations
 
-• Create a new product
-• Remove a product
-• Add discount deals for products (Example: Buy 1 get 50% off the second)
+- Create a new product
+-  Remove a product
+-  Add discount deals for products (Example: Buy 1 get 50% off the second)
 
 ### Customer Operations
 
-• Add and remove products to and from a basket
-• Calculate a receipt of items, including all purchases, deals applied and total price
+- Add and remove products to and from a basket
+- Calculate a receipt of items, including all purchases, deals applied and total price
 
 ### Your Submission
 
-• Everything should be tested with automated tests. If any requirement is not satisfied, a test
+- Everything should be tested with automated tests. If any requirement is not satisfied, a test
 should fail
-• Include this document in your repo
-• There should be one documented command to start the app
-• There should be one documented command to run the tests
-• Optimise for code clarity instead of performance
-• Push your code to a publicly available git repository and provide a link (github.com is our
-preferred.)
+- Include this document in your repo
+- There should be one documented command to start the app
+- There should be one documented command to run the tests
+- Optimise for code clarity instead of performance
+- Push your code to a publicly available git repository and provide a link (github.com is our preferred.)
 
 ### Out of scope
-• Logging
-• Continuous Integration
-• Deployment
-• Metrics
+
+- Logging
+- Continuous Integration
+- Deployment
+- Metrics
